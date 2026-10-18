@@ -1,6 +1,6 @@
 # Boxing Legends
 
-A React learning project that presents a searchable list of boxing legends. Selecting a card toggles between a boxer image and a short statistics list.
+A React learning project presenting searchable boxing profiles. Player cards can switch between an image and a local list of statistics.
 
 ## Tech stack
 - React 18
@@ -14,9 +14,9 @@ npm install
 npm start
 ```
 
-The player data is stored locally in `src/helpers/data.js`. This is a static demo, not a live sports-data service. Verify statistics and image usage rights before publishing.
+The data is stored in `src/helpers/data.js`; this is not a live sports-data service. Verify statistics and image-use rights before redistribution.
 
-## Tests and build
+## Validate
 ```bash
 npm test
 npm run build
